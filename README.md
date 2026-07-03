@@ -31,6 +31,11 @@ The system employs a decoupled, secure IoT architecture to ensure reliable data 
 | Android App Dashboard | Hardware Implementation |
 |:---:|:---:|
 | <img src="app_dashboard.png" width="280"> | <img src="hardware_setup.png" width="380"> |
+## ⚙️ Architecture & Backend Logs
+
+| Clean Code Architecture (Kotlin) | Real-Time MQTT Payload Logs |
+|:---:|:---:|
+| <img src="android_code_snippet.png" width="350"> | <img src="mqtt_logs.png" width="350"> |
 
 
 ## 🔒 Source Code Notice
