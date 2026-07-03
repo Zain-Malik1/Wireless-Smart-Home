@@ -1,40 +1,44 @@
 # 🏠 Wireless Smart Home Using Wi-Fi
 
 ## Overview
-This project is a Wi-Fi-based Smart Home system that allows users to remotely monitor and control home appliances using an Android application and an ESP8266 microcontroller.
+This project is a high-performance, Wi-Fi-based Smart Home system designed to allow users to securely monitor and control home appliances in real time. It features a custom Android application built with Kotlin and firmware deployed on an ESP8266 microcontroller, utilizing optimized network protocols for low-latency IoT communication.
 
-## Features
-- Remote control of home appliances
-- Real-time device monitoring
-- Android application
-- ESP8266 firmware
-- MQTT communication
-- OTA firmware updates
-- Secure TLS/SSL communication
+## ⚙️ System Architecture
+The system employs a decoupled, secure IoT architecture to ensure reliable data transmission and command execution:
 
-## Technologies
-- ESP8266
-- Arduino IDE
-- Android Studio
-- Kotlin
-- MQTT
-- Wi-Fi
-- JSON
-- TLS/SSL
+1. **Client Layer (Android App):** Native Android application built with Kotlin, serving as the user dashboard to trigger commands, parse data, and display real-time appliance statuses.
+2. **Broker Layer (MQTT):** Acts as the central messaging hub, managing pub/sub topics efficiently to handle light payloads with low overhead.
+3. **Hardware Control Layer (ESP8266):** Microcontroller firmware that connects via local Wi-Fi, processes incoming payloads to trigger hardware relays, and publishes telemetry updates.
+4. **Security Layer:** Implementation of TLS/SSL encryption over MQTT to prevent unauthorized access and secure all control commands.
 
-## Project Images
+## 🚀 Key Features
+- **Real-Time Remote Control:** Instant, low-latency control and live monitoring of home appliances.
+- **Secure Networking:** End-to-end encryption using TLS/SSL to safeguard device-to-cloud communication.
+- **Robust Connection Handling:** Embedded network resilience algorithms for automatic reconnection in case of Wi-Fi or broker drops.
+- **OTA Updates:** Support for secure Over-The-Air firmware updates for seamless hardware maintenance.
 
-*Images will be added soon.*
+## 🛠️ Technologies & Protocols
+- **Hardware:** ESP8266, Relays & Sensors
+- **Firmware Development:** Arduino IDE, C/C++
+- **Mobile Development:** Android Studio, Kotlin
+- **Network Protocol:** MQTT (Publish/Subscribe)
+- **Data Format:** JSON for lightweight, structured payloads
+- **Security:** TLS/SSL Encryption, Wi-Fi Security (WPA2)
 
-## Source Code
+## 📸 Project Media
 
-The source code is private and is not included in this repository.
+| Android App Dashboard | Hardware Implementation |
+|:---:|:---:|
+| _[Insert App Screenshot Here]_ | _[Insert Hardware/Setup Photo Here]_ |
 
-This repository showcases the project overview, architecture, documentation, and implementation.
+## 🔒 Source Code Notice
+The source code for both the Android application and the ESP8266 firmware is **private** and is not included in this repository. 
 
-## Author
+This repository serves as a portfolio showcase documenting the project's conceptual design, network architecture, technical specifications, and overall implementation.
 
-**Zain Al-Abdeen Salim Malik**
+## 👤 Author
 
-Computer Networks Graduate  
-University of Technology – Iraq
+**Zain Al-Abdeen Salim Malik**  
+Computer Science | Network Specialist & Web Developer  
+*University of Technology – Iraq*
+
