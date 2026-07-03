@@ -26,10 +26,9 @@ The system employs a decoupled, secure IoT architecture to ensure reliable data 
 - **Security:** TLS/SSL Encryption, Wi-Fi Security (WPA2)
 
 ## 📸 Project Media
-
 | Android App Dashboard | Hardware Implementation |
 |:---:|:---:|
-| _[Insert App Screenshot Here]_ | _[Insert Hardware/Setup Photo Here]_ |
+| <img src="app_dashboard.png" width="250"> | <img src="hardware_setup.png" width="350"> |
 
 ## 🔒 Source Code Notice
 The source code for both the Android application and the ESP8266 firmware is **private** and is not included in this repository. 
