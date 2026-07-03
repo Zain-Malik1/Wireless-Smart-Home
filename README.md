@@ -32,9 +32,6 @@ The system employs a decoupled, secure IoT architecture to ensure reliable data 
 |:---:|:---:|
 | <img src="app_dashboard.png" width="280"> | <img src="hardware_setup.png" width="380"> |
 
-| Clean Code Architecture (Kotlin) | Real-Time MQTT Payload Logs |
-|:---:|:---:|
-| <img src="android_code_snippet.png.png" width="350"> | <img src="mqtt_logs.png.png" width="350"> |
 
 ## 🔒 Source Code Notice
 The source code for both the Android application and the ESP8266 firmware is **private** and is not included in this repository. 
